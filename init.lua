@@ -32,3 +32,9 @@ vim.api.nvim_create_autocmd("Filetype", {
     vim.opt.expandtab = true
   end
 })
+vim.api.nvim_create_autocmd("Filetype", {
+  pattern = "neo-tree",
+  callback = function()
+    vim.cmd("set nolist")
+  end
+})

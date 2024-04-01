@@ -10,6 +10,9 @@ vim.cmd("set mouse=a")
 vim.cmd("set noshowmode")
 vim.opt.virtualedit = "onemore"
 vim.opt.guicursor = "n-i-c:ver100,v:blinkwait300-blinkon250-blinkoff200"
+-- Kropki w miejscu spacji
+vim.cmd("set list")
+vim.cmd("set lcs+=space:·")
 -- DZIWNE KOMENDY
 --vim.cmd("set nofsync")
 -- vim.cmd("set noswapfile")
