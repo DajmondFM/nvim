@@ -1,10 +1,9 @@
-My keybindings
-<leader> == space
-<leader> lg == lazygit
-Ctrl + p == fuzzy find
-<leader> fb == buffer list
-Ctrl + / == comment
-Shift + l == NextBuffer
-Shift + h == PrevBuffer
-Ctrl + n == NeoTree
-Ctrl + s == save
+## My keybindings
+Space lg == lazygit <br>
+Ctrl + p == fuzzy find <br>
+Space + fb == buffer list <br>
+Ctrl + / == comment <br>
+Shift + l == NextBuffer <br>
+Shift + h == PrevBuffer <br>
+Ctrl + n == NeoTree <br>
+Ctrl + s == save <br>
