@@ -1,4 +1,3 @@
-
 return {
     "Exafunction/codeium.nvim",
     dependencies = {
@@ -7,7 +6,7 @@ return {
     },
     config = function()
         require("codeium").setup({
-          --enable_chat=true,
+          enable_chat = true,
         })
 
         -- local cmp_status, cmp = pcall(require, "cmp")
