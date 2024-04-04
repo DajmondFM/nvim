@@ -11,6 +11,8 @@ vim.cmd("set noshowmode")
 vim.opt.virtualedit = "onemore"
 vim.opt.guicursor = "n-i-c:ver100,v:blinkwait300-blinkon250-blinkoff200"
 vim.keymap.set('n', '<C-s>', '<Cmd>w<CR>')
+vim.keymap.set('n', '<leader>h', '<Cmd>sp<CR>')
+vim.keymap.set('n', '<leader>v', '<Cmd>vsp<CR>')
 
 -- Kropki w miejscu spacji
 vim.cmd("set list")
