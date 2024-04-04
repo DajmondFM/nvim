@@ -8,3 +8,6 @@ Shift + h == PrevBuffer <br>
 Space + k == PickCloseBuffer <br>
 Ctrl + n == NeoTree <br>
 Ctrl + s == save <br>
+Space + h == horizontal split <br>
+Space + v == vertical split <br>
+
