@@ -20,6 +20,6 @@ vim.cmd("set lcs+=space:·")
 
 -- DZIWNE KOMENDY
 --vim.cmd("set nofsync")
--- vim.cmd("set noswapfile")
+vim.cmd("set noswapfile")
 -- vim.cmd("set nobackup")
 -- vim.cmd("set nowritebackup")

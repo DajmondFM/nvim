@@ -14,7 +14,6 @@ return {
     config = function()
         local cmp = require("cmp")
         require("luasnip.loaders.from_vscode").lazy_load()
-        
         cmp.setup({
             snippet = {
                 expand = function(args)
@@ -31,11 +30,13 @@ return {
                 ["<C-Space>"] = cmp.mapping.complete(),
                 ["<C-e>"] = cmp.mapping.abort(),
                 ["<Tab>"] = cmp.mapping.confirm({ select = true }),
-            }), 
+                ["<Enter>"] = cmp.mapping.confirm({ select = true }),
+            }),
             sources = cmp.config.sources({
                 { name = "nvim_lsp" },
                 { name = "luasnip" }, -- For luasnip users.
                 { name = "codeium" },
+                -- { name = "crates" },
               }, {
                 { name = "buffer" },
               }),
