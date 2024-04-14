@@ -35,17 +35,17 @@ return {
       vim.fn.sign_define("DiagnosticSignHint",
         {text = "󰌵", texthl = "DiagnosticSignHint"})
 
-     vim.api.nvim_create_autocmd("VimEnter", {
-       pattern = "*",
-       group = vim.api.nvim_create_augroup("NeotreeOnOpen", { clear = true }),
-       once = true,
-       callback = function(_)
-         if vim.fn.argc() == 0 then
-           vim.cmd("Alpha")
-           vim.cmd("Neotree show")
-         end
-       end,
-     })
+     -- vim.api.nvim_create_autocmd("VimEnter", {
+     --   pattern = "*",
+     --   group = vim.api.nvim_create_augroup("NeotreeOnOpen", { clear = true }),
+     --   once = true,
+     --   callback = function(_)
+     --     if vim.fn.argc() == 0 then
+     --       vim.cmd("Alpha")
+     --       vim.cmd("Neotree show")
+     --     end
+     --   end,
+     -- })
     vim.api.nvim_set_keymap("n", "<C-n>", "<cmd>Neotree toggle<CR>", { noremap = true, silent = true })
   end
 }

@@ -9,10 +9,17 @@ vim.g.mapleader = " "
 vim.cmd("set mouse=a")
 vim.cmd("set noshowmode")
 vim.opt.virtualedit = "onemore"
+vim.cmd("set cursorline")
+vim.cmd("set termguicolors")
+
 vim.opt.guicursor = "n-i-c:ver100,v:blinkwait300-blinkon250-blinkoff200"
+
 vim.keymap.set('n', '<C-s>', '<Cmd>w<CR>')
 vim.keymap.set('n', '<leader>h', '<Cmd>sp<CR>')
 vim.keymap.set('n', '<leader>v', '<Cmd>vsp<CR>')
+
+vim.keymap.set('n', '<A-Up>', '<Cmd>move -2<CR>')
+vim.keymap.set('n', '<A-Down>', '<Cmd>move +1<CR>')
 
 -- Kropki w miejscu spacji
 vim.cmd("set list")
@@ -23,3 +30,7 @@ vim.cmd("set lcs+=space:·")
 vim.cmd("set noswapfile")
 -- vim.cmd("set nobackup")
 -- vim.cmd("set nowritebackup")
+--
+-- Szybszy loader
+vim.loader.enable()
+

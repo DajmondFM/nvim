@@ -1,0 +1,7 @@
+I kilka alliasów do komend najlepiej w float termach czy coś takiego.
+OGARNĄĆ CZEMU NEOVIM TAK DŁUGO WYCHODZI
+
+Naprawic neotree
+Dodać binda który wyświetla moje keybindy
+Ogarnąć dashborda
+Pluginy które działają tylko z danym filetype
