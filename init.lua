@@ -32,6 +32,24 @@ vim.api.nvim_create_autocmd("Filetype", {
     vim.opt.expandtab = true
   end
 })
+
+function _TAB4()
+  vim.opt.tabstop = 4
+  vim.opt.shiftwidth = 4
+  vim.opt.softtabstop = 4
+  vim.opt.expandtab = true
+end
+
+function _TAB2()
+  vim.opt.tabstop = 2
+  vim.opt.shiftwidth = 2
+  vim.opt.softtabstop = 2
+  vim.opt.expandtab = true
+end
+
+vim.api.nvim_set_keymap("n", "<leader>4", ":lua _TAB4()<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>2", ":lua _TAB2()<CR>", { noremap = true, silent = true })
+
 vim.api.nvim_create_autocmd("Filetype", {
   pattern = "neo-tree",
   callback = function()
