@@ -5,7 +5,7 @@ return{
       size = 10,
       open_mapping = [[<c-\>]],
       direction = 'float',
-      shell = 'powershell.exe',
+      -- shell = 'powershell.exe',
       float_opts = {
         border = 'curved',
         title_pos = 'center',
