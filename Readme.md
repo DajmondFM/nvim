@@ -11,3 +11,4 @@ Ctrl + s == save <br>
 Space + h == horizontal split <br>
 Space + v == vertical split <br>
 Ctrl + \ == terminal <br>
+Space + ca == lsp actions <br>
