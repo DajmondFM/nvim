@@ -4,5 +4,5 @@ return {
   ft = {"toml"},
   config = function()
     require('crates').setup({})
-  end,
+  end
 }
