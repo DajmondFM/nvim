@@ -14,4 +14,4 @@ Ctrl + \ == terminal <br>
 Space + ca == lsp actions <br>
 Space + fg == live grep <br>
 Space + ch == codeium chat <br>
-
+Space + nd == dismiss notification <br>
