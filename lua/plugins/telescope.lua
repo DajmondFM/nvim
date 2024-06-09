@@ -22,15 +22,15 @@ return {
       require("telescope").load_extension("ui-select")
     end
   },
-  {
-    'jonarrien/telescope-cmdline.nvim',
-    keys = {
-      { ':', ':Telescope cmdline<CR>' }
-    },
-
-    config = function()
-      -- require('telescope').setup()
-      require('telescope').load_extension('cmdline')
-    end
-  }
+  -- {
+  --   'jonarrien/telescope-cmdline.nvim',
+  --   keys = {
+  --     { ':', ':Telescope cmdline<CR>' }
+  --   },
+  --
+  --   config = function()
+  --     -- require('telescope').setup()
+  --     require('telescope').load_extension('cmdline')
+  --   end
+  -- }
 }
