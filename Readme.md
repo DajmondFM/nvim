@@ -12,3 +12,6 @@ Space + h == horizontal split <br>
 Space + v == vertical split <br>
 Ctrl + \ == terminal <br>
 Space + ca == lsp actions <br>
+Space + fg == live grep <br>
+Space + ch == codeium chat <br>
+
