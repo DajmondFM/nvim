@@ -30,9 +30,9 @@ return {
             lspconfig.rust_analyzer.setup({
                 capabilities = capabilities
             })
-            lspconfig.clangd.setup({
-                capabilities = capabilities
-            })
+            -- lspconfig.clangd.setup({
+            --     capabilities = capabilities
+            -- })
             lspconfig.cssls.setup({
                 capabilities = capabilities
             })
