@@ -20,7 +20,8 @@ return{
   config = function()
     require('hlchunk').setup({
       chunk = {
-        enable = true
+        enable = true,
+        delay = 200,
         -- ...
       },
       indent = {
@@ -32,6 +33,6 @@ return{
       line_num = {
         enable = true
         -- ...
-      }
+      },
     })  end
 }
