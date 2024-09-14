@@ -56,3 +56,5 @@ vim.api.nvim_create_autocmd("Filetype", {
     vim.cmd("set nolist")
   end
 })
+
+-- vim.lsp.inlay_hint.enable()
