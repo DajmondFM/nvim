@@ -21,6 +21,7 @@ return {
         'TelescopePrompt',
         'noice',
         'alpha',
+        'neo-tree'
       },
     })
 
