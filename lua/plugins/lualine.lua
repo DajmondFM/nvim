@@ -4,7 +4,10 @@ return {
   config = function()
     require('lualine').setup({
       options = {
-        theme = 'auto'
+        theme = 'auto',
+        disabled_filetypes = {
+          'neo-tree'
+        }
       },
       sections = {
 
