@@ -34,3 +34,9 @@ vim.cmd("set noswapfile")
 -- Szybszy loader
 vim.loader.enable()
 
+-- Undo file
+vim.cmd("set undodir=~/.config/nvim/undodir")
+vim.cmd("set undofile")
+
+vim.cmd("set foldmethod=indent")
+vim.cmd("set foldlevel=99")
