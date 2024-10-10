@@ -21,6 +21,8 @@ vim.keymap.set('n', '<leader>v', '<Cmd>vsp<CR>')
 vim.keymap.set('n', '<A-Up>', '<Cmd>move -2<CR>')
 vim.keymap.set('n', '<A-Down>', '<Cmd>move +1<CR>')
 
+vim.keymap.set('n', '<leader>/','<Cmd>nohlsearch<CR>')
+
 -- Kropki w miejscu spacji
 vim.cmd("set list")
 vim.cmd("set lcs+=space:·")

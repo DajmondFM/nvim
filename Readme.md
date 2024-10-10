@@ -17,3 +17,4 @@ Space + ch == codeium chat <br>
 Space + nd == dismiss notification <br>
 Space + xx == Trouble diagnostics <br>
 Space + xb == Trouble diagnostics buffer<br>
+za == fold<br> 
