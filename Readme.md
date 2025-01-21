@@ -12,9 +12,13 @@ Space + h == horizontal split <br>
 Space + v == vertical split <br>
 Ctrl + \ == terminal <br>
 Space + ca == lsp actions <br>
+Space + rn == Rename <br>
 Space + fg == live grep <br>
 Space + ch == codeium chat <br>
 Space + nd == dismiss notification <br>
 Space + xx == Trouble diagnostics <br>
-Space + xb == Trouble diagnostics buffer<br>
-za == fold<br> 
+Space + xb == Trouble diagnostics buffer <br>
+za == fold <br>
+Space + ? == Legendary keymaps <br>
+Space + as == Telescope keymaps <br>
+Space + / == Cancel search <br>

@@ -120,7 +120,11 @@ return {
             vim.lsp.inlay_hint.enable()
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
-            vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
-        end
+            -- vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
+        end,
+        keys = {
+            {'<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', desc = 'Code Action'},
+            {'<leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', desc = 'Rename'},
+        }
     }
 }

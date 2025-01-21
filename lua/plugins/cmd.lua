@@ -7,6 +7,9 @@ return{
   },
   config = function()
     require("noice").setup()
-    vim.keymap.set('n', "<leader>nd", "<Cmd>Noice dismiss<CR>")
-  end
+    -- vim.keymap.set('n', "<leader>nd", "<Cmd>Noice dismiss<CR>")
+  end,
+  keys = {
+    { "<leader>nd", "<Cmd>Noice dismiss<CR>", desc = "Dismiss noice" },
+  }
 }

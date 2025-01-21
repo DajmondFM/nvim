@@ -5,7 +5,7 @@ return {
   -- its recommended to load legendary.nvim before other plugins
   priority = 10000,
   lazy = false,
-  enabled = false,
+  -- enabled = false,
   -- sqlite is only needed if you want to use frecency sorting
   -- dependencies = { 'kkharji/sqlite.lua' }
 
@@ -13,7 +13,27 @@ return {
     require('legendary').setup ({
       -- https://github.com/mrjones2014/legendary.nvim
       keymaps = {
-        { "<leader>fh", "<cmd>Telescope help_tags<cr>", description = "Find help" },
+        {"<leader>?", "<cmd>Legendary<cr>", description = "Legendary" },
+        { "<C-n>", "<cmd>Neotree toggle<CR>", desc = "Neotree toggle", noremap = true, silent = true },
+
+        -- From vim.lua
+        {"<C-s>", "<Cmd>w<CR>", description = "Save file" },
+        {"<leader>h", "<Cmd>sp<CR>", description = "Split window" },
+        {"<leader>v", "<Cmd>vsp<CR>", description = "Split window" },
+        {"<A-Up>", "<Cmd>move -2<CR>", description = "Move line up" },
+        {"<A-Down>", "<Cmd>move +1<CR>", description = "Move line down" },
+        {"<leader>/", "<Cmd>nohlsearch<CR>", description = "No highlight search" },
+      },
+      extensions = {
+        lazy_nvim = true,
+        smart_splits = {
+          directions = { 'h', 'j', 'k', 'l' },
+          mods = {
+            move = '<C>',
+            resize = '<A>',
+
+          }
+        }
       }
     })
   end

@@ -35,6 +35,9 @@ return {
   -- commit = "289eb724e5d6fab2263e94a1ad6e54afebefafb2",
   event = 'BufEnter',
   config = function()
-    vim.keymap.set('n', '<leader>ch', '<cmd>call codeium#Chat()<CR>')
-  end
+    -- vim.keymap.set('n', '<leader>ch', '<cmd>call codeium#Chat()<CR>')
+  end,
+  keys = {
+    { '<leader>ch', '<cmd>call codeium#Chat()<CR>', desc = 'Codeium Chat' }
+  }
 }

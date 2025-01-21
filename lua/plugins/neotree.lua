@@ -41,11 +41,16 @@ return {
      --   once = true,
      --   callback = function(_)
      --     if vim.fn.argc() == 0 then
-     --       vim.cmd("Alpha")
      --       vim.cmd("Neotree show")
+     --       vim.cmd("Alpha")
      --     end
      --   end,
      -- })
-    vim.api.nvim_set_keymap("n", "<C-n>", "<cmd>Neotree toggle<CR>", { noremap = true, silent = true })
-  end
+
+   -- vim.api.nvim_set_keymap("n", "<C-n>", "<cmd>Neotree toggle<CR>", { noremap = true, silent = true })
+  end,
+  -- keys = {
+  --   { "<C-n>", "<cmd>Neotree toggle<CR>", desc = "Neotree toggle", noremap = true, silent = true },
+  -- }
+
 }

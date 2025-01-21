@@ -14,14 +14,15 @@ vim.cmd("set termguicolors")
 
 vim.opt.guicursor = "n-i-c:ver100,v:blinkwait300-blinkon250-blinkoff200"
 
-vim.keymap.set('n', '<C-s>', '<Cmd>w<CR>')
-vim.keymap.set('n', '<leader>h', '<Cmd>sp<CR>')
-vim.keymap.set('n', '<leader>v', '<Cmd>vsp<CR>')
-
-vim.keymap.set('n', '<A-Up>', '<Cmd>move -2<CR>')
-vim.keymap.set('n', '<A-Down>', '<Cmd>move +1<CR>')
-
-vim.keymap.set('n', '<leader>/','<Cmd>nohlsearch<CR>')
+-- Moved to Legendary.nvim
+-- vim.keymap.set('n', '<C-s>', '<Cmd>w<CR>')
+-- vim.keymap.set('n', '<leader>h', '<Cmd>sp<CR>')
+-- vim.keymap.set('n', '<leader>v', '<Cmd>vsp<CR>')
+--
+-- vim.keymap.set('n', '<A-Up>', '<Cmd>move -2<CR>')
+-- vim.keymap.set('n', '<A-Down>', '<Cmd>move +1<CR>')
+--
+-- vim.keymap.set('n', '<leader>/','<Cmd>nohlsearch<CR>')
 
 -- Kropki w miejscu spacji
 vim.cmd("set list")

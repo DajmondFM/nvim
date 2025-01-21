@@ -19,6 +19,10 @@ return{
       lazygit:toggle()
     end
 
-    vim.api.nvim_set_keymap("n", "<leader>lg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", {noremap = true, silent = true})
-  end
+    -- vim.api.nvim_set_keymap("n", "<leader>lg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", {noremap = true, silent = true})
+  end,
+  keys = {
+    { "<leader>lg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", desc = "Lazygit", noremap = true, silent = true },
+    {"<C-\\>", "<cmd>ToggleTerm<CR>", desc = "Toggle Term", noremap = true, silent = true },
+  }
 }
