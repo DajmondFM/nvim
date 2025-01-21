@@ -1,5 +1,3 @@
 I kilka alliasów do komend najlepiej w float termach czy coś takiego.
 OGARNĄĆ CZEMU NEOVIM TAK DŁUGO WYCHODZI
 
-Dodać binda który wyświetla moje keybindy
-Ogarnąć legendary i smart-split
